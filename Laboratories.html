@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="dawnload.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+.Laboratories{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.Laboratories img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.Laboratories h1{
+    position: absolute;
+    top: auto;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+}
+.Laboratories h2{
+    position: absolute;
+    top: 450px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+}
+   
+   .Subscribe{
+    width: 100%;
+    height: 150px;
+    background-color: #2980b9;
+    margin-top: 70px;
+    display: flex;
+}
+.Subscribe h1{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    font-family: sans-serif;
+    padding-top: 60px;
+}
+.Subscribe input{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    padding-left: 10px;
+    width: 500px;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    background-color: rgba(0, 0, 255, 0.788);
+    width: 150px;
+    font-weight: 700;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button:hover{
+    background-color: #5798c4;  
+}
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+}
+.footer-logo{
+    width: 180px;
+    height: auto;
+    border-right: 1px solid white;
+    margin-left: 30px;
+}
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 130px;
+
+}
+.li{
+    width: 350px;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+}
+.li h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li li a{
+    color: white;
+}
+.li1{
+    width: 230px;
+    height: auto;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.li1 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li1 li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li1 li a{
+    color: white;
+}
+.footer-scanner img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.scrollbar{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.scrollbar i{
+    font-size: 50px;
+    color: white;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.scrollbar i:hover{
+    color:blue;
+}
+.Physics{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding-top: 40px;
+}
+.Physics p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+   
+}
+.Physics h1{
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: rgba(0, 0, 255, 0.705);
+   
+}
+.Physics_cards{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.Physics_card{
+    width: 550px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.Physics_card img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:768px){
+    .Laboratories h1{
+        top: auto;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .footer-logo img{
+        margin-top: 50px;
+    }
+    .li{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .li1{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .footer-scanner{
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+    .Subscribe{
+        flex-wrap: wrap;
+        height: 240px;
+    }
+    .Subscribe h1{
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    .Subscribe input{
+        margin-top: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .Subscribe button{
+        margin-top: 30px;
+    }
+    .Physics_cards{
+        width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 10px;
+
+    }
+    .Physics_card{
+        width: 100%;
+        height: auto;
+        margin-top: 23px;
+    }
+}
+
+@media(max-width:480px){
+    .Laboratories{
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+    .Laboratories img{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .Laboratories h1{
+        position: absolute;
+        top: auto;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: white;
+        font-weight: 700;
+    }
+    .Laboratories h2{
+      top: 380px;
+      font-size: 17px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="Laboratories">
+        <img src="https://img.freepik.com/premium-vector/abstract-digital-electric-circuit-circle-background_387612-388.jpg" alt="">
+        <h1>Science Laboratories</h1>
+        <h2>HOME / Science Laboratories</h2>
+    </div>
+<div class="Physics">
+<p>There are three science laboratories viz. Physics laboratory, Chemistry laboratory and Biology laboratory. The laboratories are equipped with apparatus, models, chemicals and organic specimens for scientific research and development.</p>
+<h1>Physics Laboratory</h1>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+     <p>The Physics Laboratory at Asha Modern School is a modern and well-equipped facility that plays a pivotal role in our science curriculum. It is designed to provide students with hands-on experience in exploring and understanding the fundamental principles of physics. The lab is equipped with a wide range of apparatus and instruments, ensuring that students can perform all the experiments outlined in the CBSE syllabus</p>
+     <p><b>Equipment and Apparatus :</b>Our Physics Lab at Asha Modern School boasts a comprehensive collection of equipment essential for a broad spectrum of experiments. Key apparatus includes:</p>
+     <p><b>Optical Instruments:</b>b The lab is equipped with lenses, mirrors, prisms, spectrometers, and optical benches. These instruments are vital for experiments related to light, including the study of reflection, refraction, and dispersion, as well as understanding the functioning of optical devices like microscopes and telescopes.</p>
+     <p><b>Electrical Circuits:</b> To delve into the concepts of electricity and magnetism, the lab includes multimeters, resistors, capacitors, ammeters, voltmeters, and power supplies. These tools allow students to explore Ohm’s Law, Kirchhoff’s Laws, and various types of electrical circuits.</p>
+     <p><b>Mechanics Apparatus:</b> The lab features equipment like pendulums, spring balances, inclined planes, and Newton’s Cradle. These are essential for studying the principles of mechanics, including force, motion, energy, and momentum.</p>
+     <p><b>Heat and Thermodynamics:</b> With instruments such as calorimeters and thermometers, students can investigate thermal properties and the laws of thermodynamics through experiments that measure specific heat, thermal expansion, and heat transfer.</p>
+     <p><b>Waves and Sound:</b> The lab also includes tuning forks, resonance tubes, and wave apparatus for experiments related to wave phenomena and the study of sound.</p>
+     <p><b>Activities, Experiments & Educational Values :</b> At Asha Modern School, students actively engage in a variety of experiments and activities that are crucial for their understanding of physics. The Physics Lab is more than just a place for experiments; it is a dynamic learning environment that enriches students’ understanding of the physical world. The hands-on experience gained in the lab is invaluable for several reasons:</p>
+     <p><b>Verification of Physical Laws:</b> Students conduct experiments to verify essential laws, such as Ohm’s Law, Hooke’s Law, and the laws of reflection and refraction. These activities involve precise measurements and data analysis, allowing students to confirm theoretical predictions through practical experience.</p>
+     <p><b>Collaborative Learning:</b> Many experiments in the lab are conducted in groups, promoting teamwork and collaboration. This environment helps students develop essential communication skills and the ability to work effectively with others.</p>
+     <p><b>Development of Scientific Temperament:</b> The lab fosters a scientific mindset by encouraging students to observe, hypothesize, experiment, and draw conclusions based on empirical evidence.</p>
+     <p><b>Inspiration for Innovation:</b> The hands-on approach in the lab nurtures curiosity and creativity, inspiring students to think critically and innovatively about real-world problems and solutions.</p>
+     <p><b>In conclusion,</b> the Physics Laboratory at Asha Modern School is a vital part of our educational infrastructure, providing students with the tools, skills, and experience necessary to excel in the study of physics. It plays a significant role in shaping not only their academic success but also their overall intellectual development, preparing them for future challenges in higher education and beyond.</p>
+    </div>
+<div class="Physics">
+<!-- <p>There are three science laboratories viz. Physics laboratory, Chemistry laboratory and Biology laboratory. The laboratories are equipped with apparatus, models, chemicals and organic specimens for scientific research and development.</p> -->
+<h1>Chemistry Laboratory</h1>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+     <p>The Physics Laboratory at Asha Modern School is a modern and well-equipped facility that plays a pivotal role in our science curriculum. It is designed to provide students with hands-on experience in exploring and understanding the fundamental principles of physics. The lab is equipped with a wide range of apparatus and instruments, ensuring that students can perform all the experiments outlined in the CBSE syllabus</p>
+     <p><b>Equipment and Apparatus :</b>Our Physics Lab at Asha Modern School boasts a comprehensive collection of equipment essential for a broad spectrum of experiments. Key apparatus includes:</p>
+     <p><b>Optical Instruments:</b>b The lab is equipped with lenses, mirrors, prisms, spectrometers, and optical benches. These instruments are vital for experiments related to light, including the study of reflection, refraction, and dispersion, as well as understanding the functioning of optical devices like microscopes and telescopes.</p>
+     <p><b>Electrical Circuits:</b> To delve into the concepts of electricity and magnetism, the lab includes multimeters, resistors, capacitors, ammeters, voltmeters, and power supplies. These tools allow students to explore Ohm’s Law, Kirchhoff’s Laws, and various types of electrical circuits.</p>
+     <p><b>Mechanics Apparatus:</b> The lab features equipment like pendulums, spring balances, inclined planes, and Newton’s Cradle. These are essential for studying the principles of mechanics, including force, motion, energy, and momentum.</p>
+     <p><b>Heat and Thermodynamics:</b> With instruments such as calorimeters and thermometers, students can investigate thermal properties and the laws of thermodynamics through experiments that measure specific heat, thermal expansion, and heat transfer.</p>
+     <p><b>Waves and Sound:</b> The lab also includes tuning forks, resonance tubes, and wave apparatus for experiments related to wave phenomena and the study of sound.</p>
+     <p><b>Activities, Experiments & Educational Values :</b> At Asha Modern School, students actively engage in a variety of experiments and activities that are crucial for their understanding of physics. The Physics Lab is more than just a place for experiments; it is a dynamic learning environment that enriches students’ understanding of the physical world. The hands-on experience gained in the lab is invaluable for several reasons:</p>
+     <p><b>Verification of Physical Laws:</b> Students conduct experiments to verify essential laws, such as Ohm’s Law, Hooke’s Law, and the laws of reflection and refraction. These activities involve precise measurements and data analysis, allowing students to confirm theoretical predictions through practical experience.</p>
+     <p><b>Collaborative Learning:</b> Many experiments in the lab are conducted in groups, promoting teamwork and collaboration. This environment helps students develop essential communication skills and the ability to work effectively with others.</p>
+     <p><b>Development of Scientific Temperament:</b> The lab fosters a scientific mindset by encouraging students to observe, hypothesize, experiment, and draw conclusions based on empirical evidence.</p>
+     <p><b>Inspiration for Innovation:</b> The hands-on approach in the lab nurtures curiosity and creativity, inspiring students to think critically and innovatively about real-world problems and solutions.</p>
+     <p><b>In conclusion,</b> the Physics Laboratory at Asha Modern School is a vital part of our educational infrastructure, providing students with the tools, skills, and experience necessary to excel in the study of physics. It plays a significant role in shaping not only their academic success but also their overall intellectual development, preparing them for future challenges in higher education and beyond.</p>
+    </div>
+<div class="Physics">
+<!-- <p>There are three science laboratories viz. Physics laboratory, Chemistry laboratory and Biology laboratory. The laboratories are equipped with apparatus, models, chemicals and organic specimens for scientific research and development.</p> -->
+<h1>Biology Laboratory</h1>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+    </div>
+<div class="Physics">
+<!-- <p>There are three science laboratories viz. Physics laboratory, Chemistry laboratory and Biology laboratory. The laboratories are equipped with apparatus, models, chemicals and organic specimens for scientific research and development.</p> -->
+<h1>Math Laboratory</h1>
+<div class="Physics_cards">
+    <div class="Physics_card">
+    <img src="https://www.ssc.edu/wp-content/uploads/2023/05/computer-lab_header.jpg" alt="">
+    </div>
+    <div class="Physics_card">
+    <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="">
+    </div>
+     </div>
+     <p>
+
+       <b>Mathematics composite lab</b> <br><br>
+        
+        <b>‘’Maths is the gateway to understand the universe and maths lab is a place where curiosity meets discovery’’</b><br><br>
+        A maths composite lab is a specialised educational environment where students engage with a variety of mathematical concepts and tools. Our school mathematics lab is rich in the elements covering different areas of mathematics such as mensuration kit, 3D models, Nets of different solids, dummy clocks, geometrical stencils and number mat etc. that provides a comprehensive learning experience to the students. The lab encourages active learning and it also helps students to develop a stronger grasp of mathematical concepts and their applications. Students visit the lab regularly and get their knowledge enhanced under the guidance of their efficient teachers.
+    </p>
+    </div>
+
+<!-- <div class="Subscribe">
+    <h1>Subscribe our Newsletter</h1>
+    <input type="text" placeholder="Your Email">
+    <button>GET IT NOW</button>
+  </div>
+  <div class="footer">
+    <div class="footer-logo">
+      <img src=" img/logo.jpg" alt="">
+    </div>
+    <div class="li">
+      <h1>Contact Us</h1>
+      <ul>
+        <li><a href="">7535045913</a></li>
+        <li><a href="">divyanshc494@gmail.com</a></li>
+        <li><a href="">divyanshc494@gmail.com</a></li>
+        <li><a href="">DEV PUBLIC SCHOOL (10+2) Sr.Secondary English Medium School Pant Vihaar Saharanpur 247001</a></li>
+      </ul>
+    </div>
+    <div class="li1">
+  <h1>The Dev Public School</h1>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Dawnloads</a></li>
+    <li><a href="">Facilities</a></li>
+    <li><a href="">Events</a></li>
+  </ul>
+    </div>
+    <div class="li1">
+      <h1>Links</h1>
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Dawnloads</a></li>
+        <li><a href="">Facilities</a></li>
+        <li><a href="">Admission</a></li>
+      </ul>
+    </div>
+    <div class="li1">
+      <div class="footer-scanner">
+        <h1>Recommend</h1>
+        <img src=" img/logo.jpg" alt="">
+        <br><br><hr>
+      </div>
+    </div>
+  </div>
+  <div class="scrollbar">
+   <a href="#carouselExampleIndicators"><i class="fa-regular fa-circle-up"></i></a><br><br><br>
+  </div>
+ -->
+
+ <div id="footer"></div>
+
+
+
+
+
+
+<script>
+    function loadNavbar() { 
+        fetch('navbar.html') 
+            .then(response => response.text()) 
+            .then(data => { 
+                document.getElementById('navbar').innerHTML = data; 
+            }); 
+    } 
+    window.onload = loadNavbar; 
+
+
+// function loadfooter() { 
+//         fetch('footer.html') 
+//             .then(response => response.text()) 
+//             .then(data => { 
+//                 document.getElementById('all_footer').innerHTML = data; 
+//             }); 
+//     } 
+//     window.onload = loadfooter; 
+
+fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+
+
+
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>

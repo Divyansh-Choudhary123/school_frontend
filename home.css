@@ -1,0 +1,756 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #navbar{
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.nav-item{
+    color: black;
+}
+.btn{
+    width: 150px;
+} */
+.works{
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+}
+.works h1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.works-cards{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.works-card{
+    width: 280px;
+    height: 170px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.works-card i{
+   font-size: 70px;
+   display: grid;
+   margin-top: 37px;
+   place-items: center;
+}
+.works-card a{
+   font-size: 20px;
+   margin-top: 20px;
+   display: grid;
+   place-items: center;
+   text-decoration: none;
+   color: black;
+}
+.works-card a:hover{
+    text-decoration: none;
+}
+.works-card:hover{
+    border: 1px solid green;
+}
+.button{
+    width: 90%;
+    height: auto;
+    padding-top: 50px;
+    margin: auto;
+}
+.button button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: rgb(39, 160, 201);
+    margin-left: 40px;
+}
+.button button a{
+    color: white;
+    font-weight: 700;
+}
+.button button a:hover{
+    text-decoration: none;
+}
+.button button:hover{
+    background-color: blue;
+    transition: 0.4s;
+}
+.Professionals{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+.Professionals h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    justify-content:center;
+}
+.Professionals-cards{
+  width: 90%;
+  height: auto;
+  padding-top: 30px;
+  display: flex;
+  margin: auto;
+}
+.Professionals-card{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.Professionals i{
+    font-size: 70px;
+    display: grid;
+    margin-top: 37px;
+    place-items: center;
+    color: black;
+ }
+ .Professionals a{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+ }
+.Professionals a:hover{
+     text-decoration: none;
+ }
+.main-img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.main-img1{
+    width: 90%;
+    height: auto;
+    display:flex;
+    margin: auto
+}
+.main-img1 img{
+    width: 400px;
+    height: 350px;
+    /* border: 2px solid black; */
+}
+.main-img1 p{
+    margin: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(78, 78, 78);
+    font-family:Sans-serif; 
+}
+.text{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.text p{
+  
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(78, 78, 78);
+    font-family:Sans-serif; 
+}
+.blue{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgb(89, 89, 216), rgb(43, 42, 42));
+    display: grid;
+    margin-top: 100px;
+   place-items: center;
+}
+.black{
+    width: 600px;
+    height: auto;
+    margin-top: 130px;
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.black h1{
+    margin: 40px;
+    font-size: 18px;
+    color: white;
+}
+.black h2{
+    margin-top: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.black form{
+    width: 86%;
+    padding-top: 30px;
+    margin: auto;
+    height: auto;
+}
+.black form input{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    background-color: rgb(68, 68, 68);
+    padding-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    
+}
+.black form button{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    background-color: rgb(0, 138, 184);
+    padding-left: 20px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.black form button:hover{
+    background-color: blue;
+}
+.about{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+}
+.about_text h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.about_text p{
+    margin: 40px;
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+    font-weight: 400;
+    font-family:Sans-serif; 
+}
+.about_text button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 138, 184);
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.about_text button a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.about_text button:hover{
+    background-color: blue;
+}
+.Curriculum{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+.Curriculum-text{
+    width: 600px;
+    height: auto;
+    margin-top: 100px;
+}
+.Curriculum-text h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(7, 124, 163);
+    font-family:Sans-serif; 
+}
+.Curriculum-text h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+    font-family:Sans-serif; 
+}
+.Curriculum-text p{
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+    font-family:Sans-serif; 
+}
+.Curriculum-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color: rgb(7, 124, 163);
+    text-align: center;
+    font-family:Sans-serif; 
+}
+.Curriculum-cards{
+    height: auto;
+}
+.Curriculum-card1{
+    height: auto;
+    display: flex;
+}
+.Curriculum-card{
+    width: 260px;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Curriculum-card i{
+    font-size: 70px;
+   display: grid;
+   place-items: center;
+   text-decoration: none;
+   padding-top: 30px;
+   color: black;
+}
+.Curriculum-card h4{
+    font-size: 18px;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+.Curriculum-card li{
+    font-size: 17px;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    margin: 10px;
+    color: rgb(92, 92, 92);
+    
+}
+.Curriculum-card:hover{
+    border: 1px solid green;
+}
+.Events{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.Events h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(7, 124, 163);
+    font-family:Sans-serif; 
+}
+.carousel-con {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.caro {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.card33 {
+    min-width: 300px;
+    height: 300px;
+    /* background-color: #3498db; */
+    color: white;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+.card33 img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes carouselAutoplay {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Anchor links for cards */
+.carousel a {
+    text-decoration: none;
+    color: inherit;
+}
+.Subscribe{
+    width: 100%;
+    height: 150px;
+    background-color: #2980b9;
+    margin-top: 70px;
+    display: flex;
+}
+.Subscribe h1{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    font-family: sans-serif;
+    padding-top: 60px;
+}
+.Subscribe input{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    padding-left: 10px;
+    width: 500px;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    background-color: blue;
+    width: 150px;
+    font-weight: 700;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button:hover{
+    background-color: #5798c4;  
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+}
+.footer-logo{
+    width: 180px;
+    height: auto;
+    border-right: 1px solid white;
+    margin-left: 30px;
+}
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 130px;
+
+}
+.li{
+    width: 350px;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+}
+.li h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li li a{
+    color: white;
+}
+
+
+
+
+.li1{
+    width: 230px;
+    height: auto;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.li1 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li1 li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li1 li a{
+    color: white;
+}
+.footer-scanner img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.scrollbar{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.scrollbar i{
+    font-size: 50px;
+    color: white;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.scrollbar i:hover{
+    color:blue;
+}
+
+
+
+@media(max-width:768px){
+    .works h1{
+        padding-top: 30px;
+    }
+    .works-cards{
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .works-card{
+        width: 94%;
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    .works-card a:hover{
+        text-decoration: none;
+        color: blue;
+    }
+    .button{
+        width: 95%;
+        height: auto;
+        padding-top: 30px;
+      }
+      .button button{
+          width: 90%;
+          height: 40px;
+          margin-top: 30px;
+          margin-left: 30px;
+      }
+      .Professionals{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+      }
+      .Professionals-cards{
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+      }
+      .Professionals-card{
+        width: 94%;
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+      }
+      .Professionals a:hover{
+        text-decoration: none;
+        color: blue;
+    }
+    .main-img{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .main-img1{
+        width: 90%;
+        height: auto;
+      flex-wrap: wrap;
+      margin-top: 0px;
+    }
+    .main-img1 img{
+        width: 100%;
+        height: auto;
+    }
+    .main-img1 p{
+        width: 100%;
+        margin: 10px;
+        font-weight: 400;
+        /* font-size: 14px; */
+        padding-top: 30px;
+        font-family: roboto;
+    }
+    .text{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .text p{
+        width: 100%;
+        margin-top: 0px;
+        font-weight: 400;
+        /* font-size: 14px; */
+        padding-top: 30px;
+        font-family: roboto;
+    }
+    .blue{
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+    .black{
+        width: 80%;
+    }
+    .black h2{
+        font-size: 27px;
+    }
+    .black h1{
+        font-size: 19px;
+    }
+    .about{
+        width: 90%;
+        height: auto;
+        padding-top: 50px;
+        flex-wrap: wrap;
+    }
+    .about img{
+        width: 100%;
+        height: auto;
+    }
+    .about_text h1{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .about_text p{
+        margin: 20px;
+    }
+    .about_text button{
+        margin-left: 20px;
+    }
+    .about img{
+        width: 100%;
+        height: auto;
+    }
+    .Curriculum{
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+    .Curriculum-card1{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .Curriculum-card{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .Subscribe{
+        flex-wrap: wrap;
+        height: 240px;
+    }
+    .Subscribe h1{
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    .Subscribe input{
+        margin-top: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .Subscribe button{
+        margin-top: 30px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .footer-logo img{
+        margin-top: 50px;
+    }
+    .li{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .li1{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .footer-scanner{
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+}

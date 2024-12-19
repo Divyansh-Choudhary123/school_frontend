@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="dawnload.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+.Prospectus{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.Prospectus img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.Prospectus h1{
+    position: absolute;
+    top: auto;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.Prospectus h2{
+    position: absolute;
+    top: 450px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+}
+   
+   .Subscribe{
+    width: 100%;
+    height: 150px;
+    background-color: #2980b9;
+    margin-top: 70px;
+    display: flex;
+}
+.Subscribe h1{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    font-family: sans-serif;
+    padding-top: 60px;
+}
+.Subscribe input{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    padding-left: 10px;
+    width: 500px;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button{
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 57px;
+    background-color: rgba(0, 0, 255, 0.788);
+    width: 150px;
+    font-weight: 700;
+    height: 43px;
+    border: none;
+    border-radius: 13px;
+}
+.Subscribe button:hover{
+    background-color: #5798c4;  
+}
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+}
+.footer-logo{
+    width: 180px;
+    height: auto;
+    border-right: 1px solid white;
+    margin-left: 30px;
+}
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 130px;
+
+}
+.li{
+    width: 350px;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+}
+.li h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li li a{
+    color: white;
+}
+.li1{
+    width: 230px;
+    height: auto;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.li1 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    color: blue;
+}
+.li1 li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin: 30px;
+}
+.li1 li a{
+    color: white;
+}
+.footer-scanner img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.scrollbar{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.scrollbar i{
+    font-size: 50px;
+    color: white;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.scrollbar i:hover{
+    color:blue;
+}
+.Prospectus_hedding{
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+.Prospectus_hedding h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #3781fc;
+    padding-top: 50px;
+   
+}
+.Prospectus_hedding ul{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px; 
+}
+.Prospectus_hedding ul li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px; 
+    font-weight: 500;
+}
+
+
+
+
+
+@media(max-width:768px){
+    .Prospectus h1{
+        top: auto;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .footer-logo img{
+        margin-top: 50px;
+    }
+    .li{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .li1{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .footer-scanner{
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+    .Subscribe{
+        flex-wrap: wrap;
+        height: 240px;
+    }
+    .Subscribe h1{
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    .Subscribe input{
+        margin-top: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .Subscribe button{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:480px){
+    .Prospectus{
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+    .Prospectus img{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .Prospectus h1{
+        position: absolute;
+        top: auto;
+        font-size: 40px;
+        font-family: sans-serif;
+        color: white;
+        font-weight: 700;
+    }
+    .Prospectus h2{
+      top: 380px;
+      font-size: 17px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .Prospectus_hedding h1{
+        font-size: 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="Prospectus">
+        <img src="https://img.freepik.com/premium-vector/abstract-digital-electric-circuit-circle-background_387612-388.jpg" alt="">
+        <h1>Prospectus</h1>
+        <h2>HOME / Prospectus</h2>
+    </div>
+<div class="Prospectus_hedding">
+<h1>Procedure for Registration and Admission</h1>
+    <ul>
+        <li>1. We do not have any special quotas or reservation for any community. Admission is open to all, irrespective of caste, creed and community. The school is secular and does not impart any specific religious instructions, but encourages the understanding of the major Indian religions through morning assembly and non-denominational prayers.</li>
+            <li>2. Parents / Guardians desirous of seeking admission for their wards in the Nursery Class must register their wards whenever the notice for Registration is put up.</li>
+            <li>3.   Admission for Class K.G. to IX will not be done unless there is a vacancy in a particular class.</li>
+            <li>4. Students coming from other institutions are required to bring their Transfer Certificates and mark sheets with them.</li>
+            <li>5. It is to be noted that registration does NOT mean admission, which will depend on the number of vacancies at the time of admission.
+            </li>
+            <li>6. The school must be informed of any change of address. Offers for admission are datelined and automatically lapse if a reply is not received by the stipulated date.
+            </li>
+            <li>7. The admission of a child to the school is on the understanding that his parent or guardian delegates his authority to the Principal during the session.
+            </li>
+            <li>8. Rules are subject to change at the discretion of the school administration. The admission of a child will mean a complete acceptance by the parent/guardian of all the school rules in force or as amended from time to time.
+            </li>
+            <li>9. All new admissions are on probation for a year. Students who make little progress owing to persistent idleness or are proved incapable may be required to leave at the end of the year/session.
+            </li>
+            <li>10. The school reserves the right of refusing admission/re-admission without assigning any reason for doing so.
+            </li>
+            <li>11. Students who fail in Class X and XII will not be re-admitted.
+            </li>
+            <li>12. The academic year begins in the first week of April and extends to the end of March.
+            </li>
+            <li>13. These dates are liable to change so the parents are requested to consult the Tentative Calendar, issued to students at the beginning of every academic year, for the exact information of all holidays.
+            </li>
+        </ul>
+</div>
+
+<!-- <div class="Subscribe">
+    <h1>Subscribe our Newsletter</h1>
+    <input type="text" placeholder="Your Email">
+    <button>GET IT NOW</button>
+  </div>
+  <div class="footer">
+    <div class="footer-logo">
+      <img src=" img/logo.jpg" alt="">
+    </div>
+    <div class="li">
+      <h1>Contact Us</h1>
+      <ul>
+        <li><a href="">7535045913</a></li>
+        <li><a href="">divyanshc494@gmail.com</a></li>
+        <li><a href="">divyanshc494@gmail.com</a></li>
+        <li><a href="">DEV PUBLIC SCHOOL (10+2) Sr.Secondary English Medium School Pant Vihaar Saharanpur 247001</a></li>
+      </ul>
+    </div>
+    <div class="li1">
+  <h1>The Dev Public School</h1>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Dawnloads</a></li>
+    <li><a href="">Facilities</a></li>
+    <li><a href="">Events</a></li>
+  </ul>
+    </div>
+    <div class="li1">
+      <h1>Links</h1>
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Dawnloads</a></li>
+        <li><a href="">Facilities</a></li>
+        <li><a href="">Admission</a></li>
+      </ul>
+    </div>
+    <div class="li1">
+      <div class="footer-scanner">
+        <h1>Recommend</h1>
+        <img src=" img/logo.jpg" alt="">
+        <br><br><hr>
+      </div>
+    </div>
+  </div>
+  <div class="scrollbar">
+   <a href="#carouselExampleIndicators"><i class="fa-regular fa-circle-up"></i></a><br><br><br>
+  </div>
+ -->
+
+ <div id="footer"></div>
+
+
+
+
+
+
+<script>
+    function loadNavbar() { 
+        fetch('navbar.html') 
+            .then(response => response.text()) 
+            .then(data => { 
+                document.getElementById('navbar').innerHTML = data; 
+            }); 
+    } 
+    window.onload = loadNavbar; 
+
+
+// function loadfooter() { 
+//         fetch('footer.html') 
+//             .then(response => response.text()) 
+//             .then(data => { 
+//                 document.getElementById('all_footer').innerHTML = data; 
+//             }); 
+//     } 
+//     window.onload = loadfooter; 
+
+fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+
+
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
